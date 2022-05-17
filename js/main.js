@@ -226,7 +226,7 @@ I am currently working on Malaria modeling for public health.
 ${teal("Selected recent publications")}
 
 ${OUTPUT_STRING}${glow("The source of individual heterogeneity shapes infectious disease outbreaks")}
-Royal Scociety B 2022 (accepted) ${OUTPUT_STRING} https://hal.archives-ouvertes.fr/hal-03175555
+Royal Scociety B 2022 (accepted) ${OUTPUT_STRING} https://doi.org/10.1098/rspb.2022.0232
 
 ${OUTPUT_STRING}${glow("Non-Markovian modelling highlights the importance of age structure on Covid-19 epidemiological dynamics.")}
 Math. Model. Nat. Phenom. 2022 ${OUTPUT_STRING} https://dx.doi.org/10.1051/mmnp/2022008
