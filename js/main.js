@@ -116,11 +116,12 @@ const messages = {
   menu: `
 Type any of the commands below to get some more info, or press [tab] to discover more.
 ${OUTPUT_STRING}${glow("about")}              - Welcome
-${OUTPUT_STRING}${glow("projects")}           - Current and future research questions
+${OUTPUT_STRING}${glow("topics")}           - Current and future research topics
 ${OUTPUT_STRING}${glow("publications")}       - Selected publications
+${OUTPUT_STRING}${glow("data")}       	      - Publicly available data
 ${OUTPUT_STRING}${glow("preprints")}          - Manuscripts under review
 ${OUTPUT_STRING}${glow("biblio")}             - Download my bibliography (.bib)
-${OUTPUT_STRING}${glow("fun")}                - Random quotations
+${OUTPUT_STRING}${glow("fun")}                - Fun quotations on modeling
 ${OUTPUT_STRING}${glow("cv")}                 - Download my CV (.pdf)
 ${OUTPUT_STRING}${glow("contact")}            - Bring on the spam
 ${OUTPUT_STRING}${glow("coauthors")}          - People I learned from
@@ -215,9 +216,9 @@ ${glow("November 8, 2010")} PhD in mathematics at Université du Luxembourg, Lux
 
 
 `,
- projects: `${banner}
+ topics: `${banner}
 
-${teal("Projects")}
+${teal("Topics")}
 
 I am currently working on Malaria modeling for public health.
 `,
@@ -437,9 +438,9 @@ var commands = {
     this.echo(messages.fun);
   },
 
-  projects: function () {
+  topics: function () {
     this.clear();
-    this.echo(messages.projects);
+    this.echo(messages.topics);
   },
 
   contact: function () {
