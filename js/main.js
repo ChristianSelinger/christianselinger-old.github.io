@@ -311,8 +311,6 @@ Lamport L, Shostak R and Pease M:${OUTPUT_STRING}${glow("The Byzantine Generals 
 
 Kurtz T: ${OUTPUT_STRING}${glow("Solutions of ordinary differential equations as limits of pure jump markov processes")} JAP 1970 ${OUTPUT_STRING}https://doi.org/10.2307/3212147
 
-Maynard Smith J, Price GR:${OUTPUT_STRING}${glow("The Logic of Animal Conflict")} Nature 1973${OUTPUT_STRING}https://etherplan.com/the-logic-of-animal-conflict.pdf
-
 Price GR:${OUTPUT_STRING}${glow("Selection and Covariance")} Nature 1970${OUTPUT_STRING}http://www0.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/price_nature.pdf
 
 Ross R:${OUTPUT_STRING}${glow("An application of the theory of probabilities to the study of a priori pathometry.")}  Proceedings of the Royal Society of London 1916${OUTPUT_STRING}https://royalsocietypublishing.org/doi/pdf/10.1098/rspa.1916.0007?download=true
